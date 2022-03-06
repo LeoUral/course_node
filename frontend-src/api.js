@@ -1,4 +1,5 @@
-const PREFIX = "http://localhost:3000/dashboard";
+// const PREFIX = "http://localhost:3000/dashboard";
+const PREFIX = "https://mykudryashov.ru:3000/dashboard";
 
 const req = async(url, options = {}) => {
     const { body } = options;
